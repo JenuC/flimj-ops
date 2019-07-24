@@ -95,6 +95,7 @@
 		<releaseProfiles>deploy-to-scijava</releaseProfiles>
 
 		<flimlib.version>2.0.0</flimlib.version>
+		<controlsfx.version>8.40.15</controlsfx.version>
 	</properties>
 
 	<dependencies>
@@ -135,6 +136,13 @@
 		<dependency>
 			<groupId>org.scijava</groupId>
 			<artifactId>scijava-common</artifactId>
+		</dependency>
+
+		<!-- Other dependencies -->
+		<dependency>
+			<groupId>org.controlsfx</groupId>
+			<artifactId>controlsfx</artifactId>
+			<version>${controlsfx.version}</version>
 		</dependency>
 
 		<!-- Runtime dependencies -->
