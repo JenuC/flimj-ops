@@ -20,6 +20,9 @@ public class FlimOps {
 	// grab & go kernels
 	public static final Img<DoubleType> SQUARE_KERNEL_3 = makeSquareKernel(3);
 	public static final Img<DoubleType> SQUARE_KERNEL_5 = makeSquareKernel(5);
+	public static final Img<DoubleType> SQUARE_KERNEL_7 = makeSquareKernel(7);
+	public static final Img<DoubleType> SQUARE_KERNEL_9 = makeSquareKernel(9);
+	public static final Img<DoubleType> SQUARE_KERNEL_11 = makeSquareKernel(11);
 
 	public static Img<DoubleType> makeSquareKernel(int size) {
 		Img<DoubleType> out = ArrayImgs.doubles(new long[] {size, size, 1});
